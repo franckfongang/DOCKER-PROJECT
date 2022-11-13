@@ -27,3 +27,4 @@ RUN yum update -y && \
 
     #set the default application that will start when the container start
     ENTRYPOINT [ " /usr/sbin/httpd" , "-D" , "FOREGROUND"]
+    # now you can create your web 
